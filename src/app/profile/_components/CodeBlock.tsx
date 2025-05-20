@@ -2,8 +2,6 @@
 import { ChevronDown, ChevronUp } from "lucide-react";
 import { useState } from "react";
 import SyntaxHighlighter from "react-syntax-highlighter";
-import { atomOneDark } from "react-syntax-highlighter/dist/esm/styles/hljs";
-
 interface CodeBlockProps {
   code: string;
   language: string;
@@ -18,7 +16,6 @@ const CodeBlock = ({ code, language }: CodeBlockProps) => {
     <div className="relative">
       <SyntaxHighlighter
         language={language.toLowerCase()}
-        style={atomOneDark}
         customStyle={{
           padding: "1rem",
           borderRadius: "0.5rem",
