@@ -10,7 +10,10 @@
   },
   "dependencies": {
     "@clerk/nextjs": "^6.6.0",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
     "@monaco-editor/react": "^4.6.0",
+    "@mui/material": "^7.1.0",
     "convex": "^1.17.3",
     "framer-motion": "^11.13.1",
     "lucide-react": "^0.464.0",

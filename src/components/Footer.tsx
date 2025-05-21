@@ -9,17 +9,17 @@ function Footer() {
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">
           <div className="flex items-center gap-2 text-gray-400">
             <Blocks className="size-5" />
-            <span>Built for developers, by developers</span>
+            <span>Built for developers, by <a href="https://balram-dhakad-portfolio.vercel.app/"   target="blank">Balram Dhakad</a></span>
           </div>
           <div className="flex items-center gap-6">
-            <Link href="/support" className="text-gray-400 hover:text-gray-300 transition-colors">
-              Support
+            <Link href="https://www.linkedin.com/in/balram-dhakad-2a9110210/" className="text-gray-400 hover:text-gray-300 transition-colors">
+              Linkedin
             </Link>
-            <Link href="/privacy" className="text-gray-400 hover:text-gray-300 transition-colors">
-              Privacy
+            <Link href="https://github.com/balram2002" className="text-gray-400 hover:text-gray-300 transition-colors">
+              Github
             </Link>
-            <Link href="/terms" className="text-gray-400 hover:text-gray-300 transition-colors">
-              Terms
+            <Link href="https://balram-dhakad-portfolio.vercel.app/" className="text-gray-400 hover:text-gray-300 transition-colors">
+              Portfolio
             </Link>
           </div>
         </div>
